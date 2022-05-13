@@ -1,6 +1,8 @@
 
-     
-  print('this has whitespace errors')  
-  
-  
-  
+"""
+docstring.
+"""
+
+print('this does not have whitespace errors')
+
+
