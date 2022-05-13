@@ -5,6 +5,13 @@ on:
     branches: [ main, staging ]
   pull_request:
     branches: [ main, staging ]
+  workflow_dispatch:
+    # allow manually triggering pytest/pylint from github actions page
+    inputs:
+      git-ref:
+        description: Git Ref (Optional)
+        required: false
+
 
 jobs:
   lint-the-py:
