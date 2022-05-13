@@ -7,7 +7,7 @@ on:
     branches: [ main, staging ]
 
 jobs:
-  build:
+  lint-the-py:
     runs-on: ubuntu-latest
     strategy:
       matrix:
